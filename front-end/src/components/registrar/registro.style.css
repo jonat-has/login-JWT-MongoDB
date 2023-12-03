@@ -1,0 +1,32 @@
+
+.registroContainer {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .registroInput {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .registroInput span {
+    margin-bottom: 5px;
+  }
+  
+  .registroInput input[type="text"],
+  .registroInput input[type="email"],
+  .registroInput input[type="password"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .registroButton {
+    display: flex;
+    justify-content: space-between;
+  }
+  
